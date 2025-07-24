@@ -1,6 +1,8 @@
-export default function Header({ children, className }){
+import styles from './Header.module.css'
+
+export default function Header({ children }){
     return(
-        <header className={className}>
+        <header className={styles.Header}>
             <h1>{children}</h1>
         </header>
     )

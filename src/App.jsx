@@ -1,11 +1,11 @@
 import Header from "./Components/Header/Header";
-import HeaderStyles from "Components/Header/Header.module.css"
+import Subtitle from "./Components/Subtitle/Subtitle.jsx";
 
 export default function App() {
   return (
     <>
-        <Header className={HeaderStyles.Header}>Header</Header>
+        <Header>Blog</Header>
+        <Subtitle>In this site, you can share his own history from life</Subtitle>
     </>
   )
 }
-

@@ -1,0 +1,18 @@
+.TextArea{
+    border: none;
+    border-radius: 0.375rem;
+    transition: box-shadow ease-in-out 0.3s;
+    background-color: rgb(33, 37, 41);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    height: 116px;
+    line-height: 20px;
+    padding: 12px 16px;
+    width: 673px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.TextArea:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}

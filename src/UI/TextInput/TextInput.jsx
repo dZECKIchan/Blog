@@ -1,11 +1,12 @@
 import styles from "./TextInput.module.css"
 
-export default function TextInput({ size = 'large'}){
+export default function TextInput({ size = 'large', onChange, maxLength}){
     return (
         <input
-            placeholder={"Enter text"}
-            maxLength={150}
+            onChange={onChange}
             className={`${styles[size]} ${styles.TextInput}`}
+            placeholder={"Enter text"}
+            maxLength={maxLength}
             type="text"
         />
     )

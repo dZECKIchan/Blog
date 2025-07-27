@@ -3,7 +3,7 @@ import Home from "../Pages/Home/Home.jsx";
 import MainLayout from "../Layouts/MainLayout.jsx";
 import CreatePost from "../Pages/CreatePost/CreatePost.jsx";
 
-const routes = createBrowserRouter([
+const appRoutes = createBrowserRouter([
     {
     path: "/", element: <MainLayout/>,
     children: [
@@ -12,4 +12,4 @@ const routes = createBrowserRouter([
     ]
     },
 ])
-export default routes
+export default appRoutes

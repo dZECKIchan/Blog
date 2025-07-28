@@ -24,7 +24,7 @@ export default function CreatePost() {
                 <h2>Enter a headline</h2>
                 <TextInput onChange={handleHeadlineChange} maxLength={100}/>
                 <h2>Enter a description</h2>
-                <TextArea onChange={handleDescriptionChange} maxLength={1000}/>
+                <TextArea onChange={handleDescriptionChange} maxLength={500}/>
                 <SuccessButton>Create</SuccessButton>
             </form>
             <h2 className={styles.preview}>Preview</h2>
